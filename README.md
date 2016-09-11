@@ -5,12 +5,13 @@ see http://www.sitesnapr.com/guide.php for more information
 
 Sitesnapr is a real-time webpage screenshot service. We grab screenshots, store them, serve them, and make sure they stay up to date. Simply give us a target and we will return an image. 
 
+<br/><br/>
 
 ## Request Anatomy 
 
 <h3>https://www.sitesnapr.com/v2/APIKEY/TOKEN/?url=URL</h3>
 
-
+<br/><br/>
 
 ## SiteSnapr Features
 Check out why we are trusted by teams across the globe. 
@@ -28,7 +29,7 @@ Our simple API takes only a few minutes to implement and we provide clear code e
 We're here to help. If you are having any kind of issue with our platform get in touch. We can help you integrate our platform with your site.
 
 
-
+<br/><br/>
 
 ## Request Options
 Construct a querystring using the below variables to control the snapshot behavior. 
