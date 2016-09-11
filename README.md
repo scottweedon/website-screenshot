@@ -1,22 +1,26 @@
 # website-screenshot
 Automated Website Screenshots using SiteSnapr https://www.sitesnapr.com
 
-# Request Anatomy 
-<h2>https://www.sitesnapr.com/v2/APIKEY/TOKEN/?url=URL</h2>
+Sitesnapr is a real-time webpage screenshot service. We grab screenshots, store them, serve them, and make sure they stay up to date. Simply give us a target and we will return an image. 
 
 # Request Anatomy 
 <h2>https://www.sitesnapr.com/v2/APIKEY/TOKEN/?url=URL</h2>
 
-Request Options
 
+<strong>Superfast Global Network</strong>
+Speed matters. We send images faster and more reliably to customers by using the servers that are closest to each user. This dramatically increases speed and availability, resulting in significant user experience improvements.
+
+
+
+# Request Options
 Construct a querystring using the below variables to control the snapshot behavior. 
 
 
 
 
- URL
- Specify the URL of the webpage to be captured.
- &url=www.google.com
+URL
+Specify the URL of the webpage to be captured.
+&url=www.google.com
  
 Width
 Sets the viewport width in pixels
