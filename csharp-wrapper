@@ -1,0 +1,33 @@
+public static string sitesnapr(string siteurl)
+{
+
+    string APIKey = "xxxxxxx";
+    string APISecret = "xxxxxxx";
+
+    string url = HttpUtility.UrlEncode(siteurl);
+
+    string getstring = "fullpage=true&url=" + url;
+
+    string sitesnapr_hash = Md5HashPHPCompliant(APISecret + "+" + getstring).ToLower();
+
+    return "https://www.sitesnapr.com/v2/" + APIKey + "/" + sitesnapr_hash + "/?" + getstring;
+
+}
+
+
+public static string Md5HashPHPCompliant(string pass)
+{
+
+    System.Security.Cryptography.MD5CryptoServiceProvider md5 = new System.Security.Cryptography.MD5CryptoServiceProvider();
+
+    byte[] dataMd5 = md5.ComputeHash(Encoding.UTF8.GetBytes(pass));
+    StringBuilder sb = new StringBuilder();
+
+    for (int i = 0; i <= dataMd5.Length - 1; i++)
+    {
+        sb.AppendFormat("{0:x2}", dataMd5[i]);
+    }
+
+    return sb.ToString();
+
+}
