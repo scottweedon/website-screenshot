@@ -1,0 +1,7 @@
+#!/bin/bash
+
+APIKEY="xxxxxxx"
+SECRET="xxxxxxx"
+TOKEN=$(echo -n "?url=google.com&force=true$SECRET" | md5sum | cut -d " " -f 1)
+
+curl -vvs "https://www.sitesnapr.com/v2/$APIKEY/$TOKEN/?url=website.com&force=true" > screenshot.png
