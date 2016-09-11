@@ -1,3 +1,5 @@
+<?php
+
 function sitesnapr_v2($url, $args) {
 
     $APIKEY = "xxxxxxx";
@@ -28,3 +30,5 @@ $options['width']       = '1280';
 $options['height']      = '1024';
 						
 $src = sitesnapr_v2("website.com", $options); 
+
+?>
