@@ -1,6 +1,8 @@
 # website-screenshot
 Automated Website Screenshots using SiteSnapr https://www.sitesnapr.com
 
+see http://www.sitesnapr.com/guide.php for more information
+
 Sitesnapr is a real-time webpage screenshot service. We grab screenshots, store them, serve them, and make sure they stay up to date. Simply give us a target and we will return an image. 
 
 
